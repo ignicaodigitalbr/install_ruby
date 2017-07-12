@@ -75,7 +75,7 @@ export RUBY_MAJOR=$(echo $RUBY_VERSION | cut -d "." -f 1,2)
 echo -ne "\nScript successfully completed!\n"
 echo "========================================="
 echo -ne "\nRuby version: `ruby -v`"
-echo -ne "\nBundle version: `bundle -v`"
 echo -ne "\nGem version: `gem -v`"
 echo -ne "\nIrb version: `irb -v`\n"
+echo -ne "\nBundle version: `bundle -v`"
 echo " "
